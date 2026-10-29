@@ -1,0 +1,34 @@
+/* Onboarding tour popovers, matched to the site's deep purple and coral palette */
+.driver-popover.ofd-tour {
+  background: #1c1236;
+  color: #e3eeee;
+  border: 1px solid rgba(185, 160, 255, 0.45);
+  border-radius: 8px;
+  max-width: 320px;
+  font-family: var(--md-text-font-family, "IBM Plex Sans", system-ui, sans-serif);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.45);
+}
+.driver-popover.ofd-tour .driver-popover-title { font-size: 1rem; font-weight: 600; color: #eef5f5; letter-spacing: -0.01em; }
+.driver-popover.ofd-tour .driver-popover-description { font-size: 0.85rem; line-height: 1.55; color: #bfd0d0; }
+.driver-popover.ofd-tour .driver-popover-progress-text {
+  font-family: var(--md-code-font-family, "IBM Plex Mono", monospace);
+  font-size: 0.7rem; letter-spacing: 0.08em; color: #b9a0ff;
+}
+.driver-popover.ofd-tour .driver-popover-footer button {
+  font-family: inherit; font-size: 0.8rem; text-shadow: none;
+  border-radius: 4px; padding: 6px 12px;
+  background: transparent; color: #b9a0ff; border: 1px solid #b9a0ff;
+}
+.driver-popover.ofd-tour .driver-popover-footer .driver-popover-next-btn { background: #b9a0ff; color: #140b2b; font-weight: 600; }
+.driver-popover.ofd-tour .driver-popover-close-btn { color: #87a0a0; }
+.driver-popover.ofd-tour .driver-popover-close-btn:hover { color: #b9a0ff; }
+.driver-popover.ofd-tour .driver-popover-arrow-side-bottom { border-bottom-color: #1c1236; }
+.driver-popover.ofd-tour .driver-popover-arrow-side-top { border-top-color: #1c1236; }
+.driver-popover.ofd-tour .driver-popover-arrow-side-left { border-left-color: #1c1236; }
+.driver-popover.ofd-tour .driver-popover-arrow-side-right { border-right-color: #1c1236; }
+.driver-popover.ofd-tour--announce .driver-popover-title::before {
+  content: "Guide"; display: block; margin-bottom: 0.4rem;
+  font-family: var(--md-code-font-family, "IBM Plex Mono", monospace);
+  font-size: 0.65rem; font-weight: 400; letter-spacing: 0.14em; text-transform: uppercase; color: #b9a0ff;
+}
+.ofd-tour-link { font-size: 0.8rem; margin-top: 0.4rem; }
