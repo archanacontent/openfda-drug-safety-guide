@@ -1,0 +1,57 @@
+{
+  "id": "docs-onboarding",
+  "version": 1,
+  "name": "Docs onboarding tour",
+  "targeting": {
+    "pages": [
+      "/"
+    ],
+    "audience": "All visitors",
+    "trigger": "First visit to the homepage",
+    "delayMs": 800
+  },
+  "frequency": {
+    "showOnce": true,
+    "storageKey": "openfda-guide-tour-v1",
+    "replayElement": "#tour-replay"
+  },
+  "steps": [
+    {
+      "type": "announcement",
+      "title": "Is Your openFDA Data Current?",
+      "body": "FDA now publishes adverse event reports in real time, while openFDA still updates quarterly. Here is how to work with that gap.",
+      "nextLabel": "Show me around"
+    },
+    {
+      "type": "tooltip",
+      "anchor": [
+        "#live-panel"
+      ],
+      "side": "bottom",
+      "title": "Live Freshness Check",
+      "body": "This panel asks openFDA how current its data is each time the page opens."
+    },
+    {
+      "type": "tooltip",
+      "anchor": [
+        ".sidebar-search",
+        ".search-button__wrapper",
+        "label.toc-overlay-icon"
+      ],
+      "side": "bottom",
+      "title": "Search The Guide",
+      "body": "Find any field or rule. Try searching for drugcharacterization or last_updated."
+    },
+    {
+      "type": "tooltip",
+      "anchor": [
+        ".content-icon-container .theme-toggle",
+        ".theme-toggle"
+      ],
+      "side": "bottom",
+      "title": "Light Or Dark",
+      "body": "Switch between dark and light mode here. Your choice is remembered on this device.",
+      "nextLabel": "Done"
+    }
+  ]
+}
