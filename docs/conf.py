@@ -18,6 +18,8 @@ html_copy_source = False
 
 html_css_files = ["custom.css", "vendor/driver.css", "tour.css"]
 html_js_files = [
+    ("https://www.googletagmanager.com/gtag/js?id=G-R5QPB9VQWB", {"async": "async", "priority": 90}),
+    ("ga.js", {"priority": 90}),
     ("default-dark.js", {"priority": 100}),
     "vendor/driver.js.iife.js",
     "tour.js",
